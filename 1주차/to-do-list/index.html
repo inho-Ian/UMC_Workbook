@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,20 +8,17 @@
     <script src="./index.js" async></script>
 </head>
 <body>
-        <div class="titleBox">
+        <div class="blank">
             <h1>UMC Study Plan</h1>
         </div>
-        <input type="text" class="input" id="todoInput" onkeypress="createDiv(event,value)" placeholder="스터디 계획을 세워보세요!"
-            value="">
+        <input type="text" class="input" id="maininput" onkeypress="createDiv(event,value)" placeholder="스터디 계획을 세워보세요!"value="">
         <br>
-        <div class="todo">
+        <div class="do">
             <a class="text">해야할 일</a>
-            <p></p>
             <div id="box"></div>
         </div>
-        <div class="todid">
+        <div class="complete">
             <a class="text">해낸 일</a>
-            <p></p>
             <div id="box2"></div>
         </div>
 </body>
