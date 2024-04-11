@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMC Study</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" async></script>
+</head>
+<body>
+        <div class="titleBox">
+            <h1>UMC Study Plan</h1>
+        </div>
+        <input type="text" class="input" id="todoInput" onkeypress="createDiv(event,value)" placeholder="스터디 계획을 세워보세요!"
+            value="">
+        <br>
+        <div class="todo">
+            <a class="text">해야할 일</a>
+            <p></p>
+            <div id="box"></div>
+        </div>
+        <div class="todid">
+            <a class="text">해낸 일</a>
+            <p></p>
+            <div id="box2"></div>
+        </div>
+</body>
+
+</html>

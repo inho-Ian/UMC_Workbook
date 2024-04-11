@@ -1,0 +1,33 @@
+body {
+    background-color: aliceblue;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.titleBox{
+    padding-bottom: 1%;
+    border-bottom: 5px solid rgb(2, 55, 100);
+}
+.todo{
+    width:40%;
+    float: left;
+    padding-left: 10%;
+}
+.todid{
+    width: 40%;
+    float: right;
+    padding-right: 10%;
+}
+.input{
+    width: 70%;
+    height: 35px;
+    margin: 4%;
+}
+.text{
+    border-bottom: 5px solid rgb(2, 55, 100);
+    padding-bottom: 1%;
+    font-weight: bold;
+    font-size: 20px;
+}
